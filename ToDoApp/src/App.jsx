@@ -6,12 +6,12 @@ import Button from "./components/Button";
 const App = ()=>{
   return (
   <div className='todo-container'> 
-  <Header />
-  <Items />
-  <Items />
-  <Items />
-  <Items />
-  <Items />
+  <Header title = "To Do" />
+  <Items text="Eat" />
+  <Items text = "Code" completed = {true} />
+  <Items text = "Play" />
+  <Items text = "Study" />
+  <Items text = "Repeat" />
   <Button /> 
   </div>);
 
