@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "./components/Header";
 import Items from "./components/Items";
 import Button from "./components/Button";
-import CounterComponent from './components/CounterComponent';
+// import CounterComponent from './components/CounterComponent';
 
 const App = ()=>{
   return (
@@ -13,7 +13,7 @@ const App = ()=>{
   <Items text = "Play" />
   <Items text = "Study" />
   <Items text = "Repeat" />
-  <CounterComponent />
+  {/* <CounterComponent /> */}
   <Button /> 
   </div>);
 
