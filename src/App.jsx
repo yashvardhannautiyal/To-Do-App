@@ -5,8 +5,7 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div className='font-mainFont'>
-   
+    <div className='font-mainFont'>   
       <Navbar />
       <ToDo />
     </div>
