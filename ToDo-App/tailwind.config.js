@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily :{
+        'logoFont' : ['Edu AU VIC WA NT Hand', 'serif'],
+        'mainFont' : ['Rubik', 'serif']
+      }
+    },
   },
   plugins: [],
 }

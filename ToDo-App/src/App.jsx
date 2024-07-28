@@ -1,11 +1,15 @@
-import { useState } from 'react'
+import React from "react"
+import ToDo from './components/ToDo'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
-    <>
-      <h1 className='text-yellow-400'>hello</h1>
-    </>
+    <div className='font-mainFont'>
+   
+      <Navbar />
+      <ToDo />
+    </div>
   )
 }
 
