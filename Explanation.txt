@@ -1,0 +1,14 @@
+ EXPLANATION
+ line 12-> if task string is not empty
+ line 14-> create a new object with properties : text(value = task input) and completed(boolean value false indicating task is not completed)
+ line 17-> creates a new array that includes all existing tasks using spread operator (...tasks)to include each task in the tasks array and adds the new task object (newTask) to the end of this array.
+ line 18-> clears the input field so that the user can add another task
+ line 24-> delete function creates a new array of newTasks and pushes the task whoose index does not matches with the task the user want to delete from the tasks
+ line 35-> tasks.map(...) is an array method that creates a new array by calling a given function
+task : is the current task
+i : is the index of the current task
+ line 36-> checks if the current index (i) matches the index of the task to be toggled (index)
+ line 37-> { ...task } uses the spread operator to create a shallow copy of the current task object.
+/completed: !task.completed updates the completed property to its opposite value (true to false or false to true).
+This effectively toggles the completed status of the task.
+ line 59-> onchange : triggers whenever the value of input field is changed | e : it is the event object passed to the event handler when the event is triggered. | e.target.value : retrieves the current value of the input field.
